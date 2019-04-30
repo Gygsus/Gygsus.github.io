@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/aurinko.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="images/favicon.ico" type="favicon">
+<title> Gygsus </title>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+.active {
+  background-color: #00df09;
+}
+
+
+a {
+  font-family: "Courier New", Courier, monospace;
+  color: red;
+  text-decoration: none;
+}
+
+h1 {
+  text-align:center;
+  font-family: "Courier New", Courier, monospace; 
+  color: black;
+  text-decoration: none;
+
+}
+	
+h2 {
+  text-align:center;
+  font-family: "Courier New", Courier, monospace; 
+  color: black;
+  text-decoration: none;
+
+}	
+
+p  { 
+  text-align:left;
+  font-family: "Courier New", Courier, monospace; 
+  color: black;
+  text-decoration: none;
+  
+}
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+input[type=text] {
+  width: 550px;
+  height: 43px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  box-sizing: borde-box;
+  border: 0px solid #00df09;
+  border-radius: 0px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 0px 0px; 
+  background-repeat: no-repeat;
+  padding: 3px 10px 6px 10px;
+  margin: 0px;
+}	
+
+button {
+  float-right: 0px;
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  background: #00df09;
+  color: white;
+  font-size: 16px;
+  padding: 0px 10px 0px 10px;
+  border: 5px solid #00df09;
+  cursor: pointer;
+}
+
+button:hover {
+	background: red;
+	border: 5px solid red;
+}
+
+</style>
+</head>
+<body>
+
+<div id="head">
+<h1 style="color:white;"> GYGSUS </h1>
+<ul>
+  <li><a href="index.html">Etusivu</a></li>
+  <li><a class="active" href="aurinkokunta.html">Takaisin</a></li>
+  <li><a href="#contact">Projektit</a></li>
+  <li style="float:right"><a href="#about">Yhteydenotto</a></li>
+  <form>
+  <input type="text" name="search" placeholder="Etsi" style="padding-bottom: 0px;">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</ul>
+</div>
+
+<div id="content">
+<h2> Aurinko </h2>
+<hr>
+<p><b> Aurinko - Keskustähtemme </b></p>
+<br>
+<p><b> Ominaisuudet  </b></p>
+<p> Aurinko on meidän tähtemme, jota kaikki Aurinkokunnan kappaleet kiertävät, mukaan lukien planeetat kuineen. Aurinko on valkoinen G2V-luokan tähti, jonka pintalämpötila on keskimäärin 5502 Celsiusastetta. Noin 99,8% Aurinkokunnan massasta keskittyy itse tähteen, Aurinkoon. Massaltaan se on noin 1,9891 kvintiljoonaa kilogrammaa ja halkaisijaltaan 1,392,200 kilometriä. Auringon sisään mahtuisi jopa reilut 923 Jupiter-planeettaa.  </p>
+<br>
+<p><b>  Elinkaari </b></p>
+<p> Aurinko elää keski-ikää eli noin 4,6 miljardia vuotta. Se teorian mukaan muuttaisi kokoaan jopa noin 215 kertaisesti oman halkaisijansa eli noin 300 miljoonaa kilometriä, kun se on polttanut kaiken vetynsä. Tämän laajentumisen alle jäisivät Merkurius, Venus ja todennäköisesti myös Maa. Prosessin uskotaan tapahtuvan viimeistään 5-6 miljardin vuoden kuluttua.   </p>
+<br>
+<p><b> Todellinen väri  </b></p>
+<p> Maasta katsottuna Aurinko näyttää joko punaiselle, oranssille tai keltaiselle, mutta todellisuudessa se on valkoinen. Maan ilmakehässä olevat atomit suodattavat Auringosta lähtevät aallonpituudet, täten värjäten taivaan siniseksi ja Auringon eri väriseksi Maasta katsottuna. Tähän vaikuttaa myös se, missä kohtaa Aurinko on taivaalla, sillä Auringosta lähtevät aallonpituudet kulkevat pitkän matkan ennen kuin ne tulevat pinnalle asti.  </p>
+<br>
+<p><b> Lähimmät tähdet </b></p>
+<p> Aurinkoa neljä lähintä tähteä ovat Alfa Kentaurin kolmoistähtijärjestelmä, johon kuuluu Alfa Kentauri A, B, C ja yksittäinen punainen kääpiötähti, Barnardin tähti. Alfa Kentaurin tähtijärjestelmän etäisyys meihin on noin 4,24 – 4,36 valovuotta eli 40,086,041,011,269,12 – 41,220,551,605,927,68 kilometriä, kun taas Barnardin tähdelle on noin kuusi valovuotta eli 56,725,529,732,928 kilometriä.   </p>
+<br>
+<p><b> Hyödyt </b></p>
+<p> Aurinko, kuten muutkin tähdet takaavat lähes kaikille elämänmuodoille mahdollisuuden elämään ja D-vitamiinien saamiseen. Aurinko mahdollistaa fotosynteesin eli yhteyttämisen, jonka valoa kasvit ja puut hyödyntävät hiilidioksidin ja veden voimin. Aurinkoa hyödynnetään myös sähkön tuotannossa, aurinkopaneelien toimesta. Sopiva etäisyys Aurinkoon/tähteen takaa elämän olemassaolon, veden ja hiilidioksidin kanssa. Meidän etäisyys Aurinkoon on keskimäärin 1 au eli 149,6 miljoonaa kilometriä (tarkemmin 149 597 871 km). </p>
+<br>
+<p><b> Fuusio </b></p>
+<p> Kuten kaikki muutkin tähdet, Aurinko fuusioi vetyä ja tuottaa siten sähkömagneettista säteilyä kaikilla aallonpituuksilla, esimerkiksi infrapunasäteilynä ja näkyvänä valona. Fuusiosta on ihmisille sähkön tuotannon kannalta paljon hyötyä, sillä aurinkopaneelit keräävät sähköä Auringon valosta ja säteilystä. Fuusioiminen keinotekoisesti vaatisi äärimmäiset olosuhteet, kuten erittäin suuret lämpötilat ja paineen. Aurinko säteilee myös UV-säteilyä, joka aiheuttaa liiallisissa määrin ihosyöpää, melanoomaa.  </p>
+<br>
+
+
+</div>
+
+<div id="footer">
+<br>
+<p style="text-align:center; color:white;"> Kaikki oikeudet pidätetään © Gygsus 2019 </p>
+</div>
+
+</body>
+</html>
