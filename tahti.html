@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/tahti.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="images/favicon.ico" type="favicon">
+<title> Gygsus </title>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+.active {
+  background-color: #00df09;
+}
+
+
+a {
+  font-family: "Courier New", Courier, monospace;
+  color: red;
+  text-decoration: none;
+}
+
+h1 {
+  text-align:center;
+  font-family: "Courier New", Courier, monospace; 
+  color: black;
+  text-decoration: none;
+
+}
+	
+h2 {
+  text-align:center;
+  font-family: "Courier New", Courier, monospace; 
+  color: black;
+  text-decoration: none;
+
+}	
+
+p  { 
+  text-align:left;
+  font-family: "Courier New", Courier, monospace; 
+  color: black;
+  text-decoration: none;
+  
+}
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+input[type=text] {
+  width: 550px;
+  height: 43px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  box-sizing: borde-box;
+  border: 0px solid #00df09;
+  border-radius: 0px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 0px 0px; 
+  background-repeat: no-repeat;
+  padding: 3px 10px 6px 10px;
+  margin: 0px;
+}	
+
+button {
+  float-right: 0px;
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  background: #00df09;
+  color: white;
+  font-size: 16px;
+  padding: 0px 10px 0px 10px;
+  border: 5px solid #00df09;
+  cursor: pointer;
+}
+
+button:hover {
+	background: red;
+	border: 5px solid red;
+}
+
+</style>
+</head>
+<body>
+
+<div id="head">
+<h1 style="color:white;"> GYGSUS </h1>
+<ul>
+  <li><a href="index.html">Etusivu</a></li>
+  <li><a class="active" href="tahtitiede.html">Takaisin</a></li>
+  <li><a href="#contact">Projektit</a></li>
+  <li style="float:right"><a href="#about">Yhteydenotto</a></li>
+  <form>
+  <input type="text" name="search" placeholder="Etsi" style="padding-bottom: 0px;">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</ul>
+</div>
+
+<div id="content">
+<h2> Tähdet </h2>
+<hr>
+<p><b> Lyhyesti </b> </p>
+<p> Tähdet ovat avaruuden yksi yleisimmistä asioista ja kohteista. Niiden massa voi vaihdella suuresti kvadriljoonasta kilogrammasta jopa septiljooniin kilogrammoihin. Tähtityyppejä on monenlaisia: keskiluokan tähdet, kääpiötähdet, ruskeat kääpiötähdet, valkoiset kääpiötähdet, neutronitähdet eli kuolleet tähdet, joita muodostuu supernova-räjähdyksen yhteydessä. Joskus voi myös muodostua musta aukko. Näiden kappaleiden massat ja tiheydet ovat tavallisia tähtiä huomattavasti suurempia, jopa miljardeja kertoja suurempia. Nuppineulallinen neutronitähteä painaa miljoonia kilogrammoja. Ne ovat yleensä 10-30 kilometriä halkaisijaltaan, mutta ovat massaltaan omaa tähteämme suurempia ja tiheämpiä.  </p> 
+<p> Tähdet syntyvät ja muodostuvat kaasusta ja pölystä. Se edellyttää tietynlaiset olosuhteet ja lämpötilat. Massaltaan tähdet ovat yleensä planeettoja merkittävästi suurempia, mutta voivat olla läpimitaltaan pienempiäkin.   </p> 
+<p> Tähdet säteilevät ihmisille haitallista säteilyä esimerkiksi UV-säteilyä ja gammasäteilyä, jotka ovat ionisoivaa (läpitunkevaa)säteilyä. Tähtien elinkaari määräytyy sen massa ja koon (hydrostaattisen tasapainon) mukaan. Mitä pienempi tähti on kyseessä, esimerkiksi kääpiötähti niin sitä pidempään se elää, jopa kymmenen biljoonaa vuotta. Mitä suurempi tähti niin sitä nopeammin se kuluttaa sen energian “vedyn”. <a href="">Uy Scutin</a> kokoluokkaa olevat tähdet ovat oletettu eliniältään vain kymmenen miljoonaa vuotta. Oma tähtemme, <a href="aurinko.html">Aurinko</a> voi elää kymmenen miljardia vuotta, mikä on merkittävästi suurempi. Aurinkomme on keskiluokan tähti, G2V.   </p> 
+<p> Tähtien väliset etäisyydet ovat useita valovuosia. Valovuosi on (299,792,458 km x 60 s x 60 min x 24h x 365 d =) 9,454,254,955,4 kilometriä, pyöristettynä 9,45 biljoonaa kilometriä. Maata lähin tähti on <a href="aurinko.html">Aurinko</a>, mutta Aurinkoa lähin tähti on <a href="">Alfa Kentauri A</a>, Alfa Kentaurin kolmoistähtijärjestelmästä noin 4,24/4,36 valovuoden päästä. Lähin yksittäinen tähti on punainen kääpiötähti, Barnard, joka sijaitsee kuuden valovuoden päässä meistä.   </p> 
+<p> Suuret tähdet kuolevat räjähtäen supernovina muodostaen joko neutronitähden tai mustan aukon. Tähden pitää olla yli kaksi kertaa aurinkoa raskaampi, jotta ne voivat räjähtää supernovina. Oma aurinkomme ei kykene räjähtämään supernovana, mutta viiden miljardin vuoden kuluttua, kun se on kuluttanut kaiken polttoaineensa eli vedyn. Alkaa se kuluttamaan heliumia polttoaineenaan. Siinä vaiheessa sen koko laajenee 1,4 miljoonasta kilometristä jopa 300 miljoonaan kilometriin. Sen koko suurenee niin paljon, että sen uskotaan ulottuvan maahan asti, nielaisten samassa Merkuriuksen, Venuksen ja hyvin todennäköisesti Maan.   </p> 
+<p> Tähtien pintalämpötila vaihtelee sen massan ja tiheyden perusteella. Tähden väri kertoo sen lämpötilasta. Jos tähti on punainen sen lämpötila on useimmiten noin 3,000 Celsiusastetta. Oma tähtemme on valkoinen ja pintalämpötilaltaan 5,505 Celsiusastetta. Kirkkaan siniset tähdet taas ovat kaikista kuumimpia, esimerkiksi Jousimiehen tähdistössä sijaitseva (Wolf-Rayet) <a href="">WR102</a>, jonka pintalämpötila on huikeat 210,000 Celsiusastetta.   </p> 
+<p> Tähtien koko voi vaihdella 100 tuhannen kilometrin ja 2,5 miljardin kilometrin välillä. Suurin tunnetuin tähti on 9,5 tuhannen valovuoden päässä sijaitsevassa Kilven tähdistössä oleva Uy Scuti –niminen hyperjättiläinen, jonka massa on vain noin 8,5-17 aurinkoa, mutta läpimitaltaan jopa 2,5 miljardia kilometriä. Pintalämpötilaltaan 3,000 – 5,000 Celsiusasteen luokkaa, mutta sen sisään mahtuisi jopa 5 miljardia aurinkoa.   </p> 
+<p> Kirkkain ja massaltaan suurin tähti on (Wolf-Rayet) <a href="">R136A1</a>, joka on 8,7 miljoonaa kertaa Aurinkoa kirkkaampi, sekä on massaltaan 265 auringon veroinen.   </p> 
+<p> Kehittyvä alkeistähti on nimeltään prototähti. Kääpiötähtiä uskotaan olevan eniten koko Linnunradassa. Linnunradassa on tähtiä arvioltaan 100–400 miljoonaa, joista suurin osa on punaisia kääpiötähtiä. </p> 
+<hr>
+<p><b> Esimerkki tähtiä - <a href="" style="color:red;">Tähdet</a></b></p>
+<table>
+  <tr>
+    <th>Tähti</th>
+    <th>Päiväntasaajan halkaisija (km)</th>
+    <th>Massa (kg/Aurinkoa)</th>
+	<th>Etäisyys Maahan (au/vv)</th>
+	<th>Lämpötila (Celsius)</th>
+  </tr>
+  <tr>
+    <td>Aurinko</td>
+    <td>1,392,200 km</td>
+    <td>1,9891 kvintiljoonaa kg / 1 A</td>
+	<td>1 au / 0,00015823 vv</td>
+	<td>5,505 Celsiusastetta</td>
+  </tr>
+  <tr>
+    <td>Alfa Kentauri A</td>
+    <td>1,712,406 km</td>
+    <td>2,1880 kvintiljoonaa kg / 1,1 A</td>
+	<td>275,542.3678 au / 4,22 vv</td>
+	<td>5,790 Celsiusastetta</td>
+  </tr>
+  <tr>
+    <td>Barnard</td>
+    <td>278,440 km</td>
+    <td>318,256 kvadriljoonaa kg / 0,16 A</td>
+	<td>379,186.7447 au / 6 vv</td>
+	<td>3,134 Celsiusastetta</td>
+  </tr>
+  <tr>
+    <td>Vy Canis Majoris</td>
+    <td>1,976,924,000 km</td>
+    <td>33,8147 kvintiljoonaa kg / 17 A</td>
+	<td>241,415,560,0 au / 3,820 vv</td>
+	<td>3,490 Celsiusastetta</td>
+  </tr>
+  <tr>
+    <td>R136a1</td>
+    <td>42,000,000 km</td>
+    <td>527,1115 kvintiljoonaa kg / 265 A</td>
+	<td>10,301,239,000 au / 163,000 vv</td>
+	<td>50,000 Celsiusastetta</td>
+  </tr>
+</table>
+<br>
+<p> Kvadriljoona: <i> 24 nollaa</i> | Kvintiljoona: <i> 30 nollaa </i> </p>
+<hr>
+<p><b> Tähtiä: </b><a href="">Aurinko</a> | <a href="">Alfa Kentauri A</a> | <a href="">Barnard</a> | <a href="">Tau Ceti</a> | <a href="">Uy Scuti</a> | <a href="">VY Canis Majoris</a> | <a href="">R136a1</a> | <a href="">Westerlund 1-26</a> | <a href="">PSR J2144-3933</a> | <a href="">Sirius A, B</a> | <a href="">Aldebaran</a> | </p>
+
+<br>
+
+
+</div>
+
+<div id="footer">
+<br>
+<p style="text-align:center; color:white;"> Kaikki oikeudet pidätetään © <a href="index.html" style="color:red;">Gygsus</a> 2019 </p>
+</div>
+
+</body>
+</html>
